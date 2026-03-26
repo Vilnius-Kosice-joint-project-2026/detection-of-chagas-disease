@@ -26,8 +26,13 @@ The labels for Chagas disease are downloaded separately
 After downloading, place the dataset in the following directory structure:
 
 data/
-    CODE-15%
-    Sami-trop
-    PTB-XL
+    CODE-15%/
+        code15_chagas_labels.csv
+        exams_part*.hdf5
+        exams.csv
+    Sami-trop/
+    PTB-XL/
+        exams.csv
+        exams.hdf5
 
 ## Project Structure
