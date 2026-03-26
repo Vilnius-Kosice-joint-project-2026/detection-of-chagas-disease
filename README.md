@@ -12,15 +12,15 @@ The dataset used in this project comes from the PhysioNet Challenge 2025. The da
 - PTB-XL
 
 Due to the large size of the dataset (~64GB), the data is not included in this repository. The dataset can be downloaded from:
-CODE-15%: https://zenodo.org/records/4916206
-SaMi-Trop: https://zenodo.org/records/4905618
-PTB-XL: https://physionet.org/content/ptb-xl/1.0.3/
+- CODE-15%: https://zenodo.org/records/4916206
+- SaMi-Trop: https://zenodo.org/records/4905618
+- PTB-XL: https://physionet.org/content/ptb-xl/1.0.3/
 
 The labels for Chagas disease are downloaded separately
  
-For CODE-15% you can find them in this webpage: https://moody-challenge.physionet.org/2025/
-SaMi-trop Chagas labels are all positive
-PTB-XL Chagas labels are all negative
+- For CODE-15% you can find them in this webpage: https://moody-challenge.physionet.org/2025/
+- SaMi-trop Chagas labels are all positive
+- PTB-XL Chagas labels are all negative
 
 
 After downloading, place the dataset in the following directory structure:
