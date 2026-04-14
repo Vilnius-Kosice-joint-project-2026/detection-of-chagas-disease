@@ -56,3 +56,12 @@ def get_ecg_by_exam_id(df, exam_id, base_path=None):
     )
 
     return ecg, row
+
+def get_ecg_from_row(row, base_path=None):
+    ecg = load_ecg(
+        exam_id=row["exam_id"],
+        trace_file=row["trace_file"],
+        base_path=base_path,
+    )
+    return ecg
+    
